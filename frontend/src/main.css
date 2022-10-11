@@ -1,0 +1,15 @@
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 30px;
+    display: flex;
+    flex-direction: row; 
+    align-items: flex-start;
+}
+
+@media (max-width: 1050px){
+    main{
+        align-items: center;
+        flex-direction: column;
+    }
+}

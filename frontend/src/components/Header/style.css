@@ -1,0 +1,8 @@
+header{
+    text-align: center;
+    padding: 15px;
+    background-color: purple;
+    color: white;
+    position: fixed;
+    width: 100%;
+}

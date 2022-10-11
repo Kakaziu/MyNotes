@@ -1,0 +1,129 @@
+ul{
+    list-style: none;
+    width: 65%;
+}
+
+.note{
+    margin-top: 50px;
+    margin-left: 370px;
+    width: 100%;
+    box-shadow: 0px 1px 7px 1px;
+    border-radius: 10px;
+    min-height: 100px;
+}
+
+.note .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    color: white;
+    background-color: purple;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: 0.5s;
+}
+
+.checkedNote{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    color: white;
+    background-color: gold;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: 0.5s;
+}
+
+.binIcon{
+    font-size: 15px;
+    transition: 0.2s;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.iconDiv{
+    margin: 0px 0px 0px 15px;
+    height: 30px;
+}
+
+.favIcon{
+    color: purple;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.checked{
+    color: gold;
+}
+
+.checkedNote span{
+    font-size: 15px;
+    transition: 0.2s;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.title .binIcon:hover{
+    color: red;
+}
+
+.favIcon:hover{
+    color: gold;
+}
+
+.checked .binIcon:hover{
+    color: red;
+}
+
+.note .desc{
+    padding:20px 20px;
+    font-size: 16px;
+}
+
+.note .desc textarea{
+    resize: none;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    cursor: default;
+    border: none;
+    padding: 5px;
+}
+
+@media (max-width: 1050px){
+
+    ul{
+        width: 100%;
+    }
+
+    .note{
+        margin-left:0px ;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 500px){
+    .note .title{
+        padding: 10px 15px;
+        
+    }
+
+    .note .favPost{
+        padding: 10px 15px;
+    }
+
+    .note{
+        min-height: 200px;
+    }
+
+    .iconDiv {
+        margin-top: 30px;
+    }
+
+    .note .desc textarea{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,67 @@
+.noteForm{
+    margin-top: 50px;
+    width: 320px;
+    padding: 20px 30px;
+    background-color: white;
+    box-shadow: 0px 0px 14px 0px;
+    border-radius: 10px;
+    position: fixed;
+}
+
+.noteForm p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.camp{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+form label{
+    color: rgb(165, 165, 165);
+}
+
+form input{
+    border: 0;
+    border-bottom: 1px solid rgb(165, 165, 165);
+    width: 100%;
+    padding: 5px 0px;
+    font-size: 14px;
+}
+
+form textarea{
+    margin-top: 7px;
+    width: 100%;
+    height: 200px;
+    resize: none;
+    border: 0;
+    border-bottom: 1px solid rgb(165, 165, 165);
+    font-size: 14px;
+}
+
+form button{
+    margin-top: 30px;
+    width: 100%;
+    font-size: 19px;
+    border: none;
+    padding: 10px 0 ;
+    background-color: rgba(128, 0, 128, 0.575);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+@media (max-width: 1050px){
+    .noteForm{
+        position:static;
+    }
+}
+
+@media (max-width: 500px){
+    .noteForm{
+        width: 100%;
+    }
+}
