@@ -1,25 +1,3 @@
-<style>
-
-    *{
-        color: white
-    }
-
-    button{
-        padding: 8px 14px;
-        font-size: 18px;
-        border-radius: 10px;
-        color: white;
-        background: purple;
-        border: none;
-        cursor: pointer;
-        transition: 0.3s
-    }
-
-    button:hover{
-        transform: scale(1.1)
-    }
-
-</style>
 
 <div align="center">
     <h1>MyNotes</h1>
@@ -40,7 +18,7 @@
 ## Demo 📷
 
 <h1 align="center">
-    <img src="./gifs/Animação1.gif">
+    <img src="./gifs/Animação.gif">
 </h1>
 
 <h1 align="center">
@@ -54,8 +32,6 @@
 <h1 align="center">
     <img src="./gifs/Animação4.gif">
 </h1>
-
-<a href="#"><button>Teste a aplicação</button></a>
 
 <br>
 
